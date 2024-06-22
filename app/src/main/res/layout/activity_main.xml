@@ -30,11 +30,11 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="@dimen/myedit"
         android:layout_height="wrap_content"
-        android:textColor="@color/black"
         android:text="login"
-        tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="242dp" />
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="245dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
