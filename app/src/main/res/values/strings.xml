@@ -4,6 +4,6 @@
     <string name="from_roshan" tools:ignore="MissingTranslation">From Roshan</string>
     <string name="todo">TODO</string>
     <string name="login">login</string>
-    <string name="name">Name</string>
+    <string name="name">Enter Name</string>
     <string name="enter_pin">Enter Pin</string>
 </resources>

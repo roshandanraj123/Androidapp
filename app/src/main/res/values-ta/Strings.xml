@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="enter_pin">பின்னை உள்ளிடவும்</string>
-    <string name="enter_name" tools:ignore="ExtraTranslation">பெயரை உள்ளிடுக</string>
+    <string name="name">பெயரை உள்ளிடுக</string>
+    <string name="login">உள்நுழைய</string>
+
+
 
 </resources>
