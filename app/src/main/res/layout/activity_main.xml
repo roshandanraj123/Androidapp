@@ -2,39 +2,51 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#BEB3D5"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#BEB3D5"
     tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/editTextText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="84dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="84dp" />
+        android:minHeight="48dp"
+        android:text="@string/name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Enter Pin"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="24dp"
+        android:autofillHints=""
         android:ems="10"
+        android:hint="@string/enter_pin"
         android:inputType="numberPassword"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="153dp" />
+        android:minHeight="48dp"
+        android:textColorHint="#303F9F"
+        app:layout_constraintStart_toStartOf="@+id/editTextText"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
 
     <Button
         android:id="@+id/button"
+        android:onClick="myclickhandler"
         android:layout_width="@dimen/myedit"
         android:layout_height="wrap_content"
-        android:text="login"
-        android:textColor="@color/black"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="245dp" />
+        android:layout_marginTop="47dp"
+        android:text="@string/login"
+        android:textColor="#C5E1A5"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
