@@ -1,7 +1,7 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">My Application</string>
     <string name="happy_birthday_sam">Happy Birthday SAM!!!!</string>
-    <string name="from_roshan">From Roshan</string>
+    <string name="from_roshan" tools:ignore="MissingTranslation">From Roshan</string>
     <string name="todo">TODO</string>
     <string name="login">login</string>
     <string name="name">Name</string>
